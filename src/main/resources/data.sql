@@ -1,0 +1,16 @@
+INSERT INTO RESTAURANT (CODE, CATEGORY, NAME, ADDRESS, PHONE_NUMBER)
+VALUES ('R001', 'Italian', 'The Pasta Place', '123 Spaghetti Blvd', '555-1234'),
+       ('R002', 'French', 'Le Gourmet', '234 Bistro St', '555-2345'),
+       ('R003', 'American', 'Burger Barn', '345 Diner Dr', '555-3456'),
+       ('R004', 'Mexican', 'Taco Town', '456 Fajita Rd', '555-4567'),
+       ('R005', 'Japanese', 'Sushi Spot', '567 Sashimi Way', '555-5678'),
+       ('R006', 'Chinese', 'Dragon Delight', '678 Wonton Ln', '555-6789'),
+       ('R007', 'Indian', 'Curry Corner', '789 Masala Ave', '555-7890'),
+       ('R008', 'Thai', 'Thai Terrace', '890 Pad Thai Pl', '555-8901'),
+       ('R009', 'Mediterranean', 'Mediterra', '901 Hummus Hl', '555-9012'),
+       ('R010', 'Vegetarian', 'Veggie Vault', '123 Leafy Ln', '555-0123'),
+       ('R011', 'Vegan', 'Green Garden', '234 Plant Pl', '555-0234'),
+       ('R012', 'Barbecue', 'BBQ Base', '345 Smoky Sq', '555-0345'),
+       ('R013', 'Seafood', 'Sea Breeze', '456 Oceanic Oc', '555-0456'),
+       ('R014', 'Steakhouse', 'Steak Central', '567 T-Bone Tr', '555-0567'),
+       ('R015', 'Cafe', 'Caffeine Cafe', '678 Brew Blvd', '555-0678');
