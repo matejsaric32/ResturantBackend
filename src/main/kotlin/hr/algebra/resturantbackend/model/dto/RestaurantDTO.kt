@@ -11,7 +11,6 @@ data class RestaurantDTO (
     @field:NotBlank(message = "Name must not be blank")
     val name : String,
 
-    @field:NotBlank(message = "Code must not be blank")
     var code: String = "",
 
     @field:NotNull(message = "Category must not be null")
@@ -22,6 +21,8 @@ data class RestaurantDTO (
 
     @field:NotBlank(message = "Phone number must not be blank")
     @field:Pattern(regexp = "^\\+?[0-9. ()-]{7,25}$", message = "Phone number is invalid")
-    val phone : String
+    val phone : String?,
+
+    val foods: List<FoodDTO>? = null
 )
 

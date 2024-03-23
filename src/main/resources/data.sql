@@ -14,3 +14,26 @@ VALUES ('R001', 'Italian', 'The Pasta Place', '123 Spaghetti Blvd', '555-1234'),
        ('R013', 'Seafood', 'Sea Breeze', '456 Oceanic Oc', '555-0456'),
        ('R014', 'Steakhouse', 'Steak Central', '567 T-Bone Tr', '555-0567'),
        ('R015', 'Cafe', 'Caffeine Cafe', '678 Brew Blvd', '555-0678');
+
+
+INSERT INTO FOOD (NAME, DESCRIPTION, PRICE, RESTAURANT_ID)
+VALUES ('Margherita Pizza', 'Classic pizza with tomato sauce and mozzarella cheese', 9.99, 1),
+       ('Pepperoni Pizza', 'Pepperoni with mozzarella and tomato sauce', 10.99, 1),
+       ('Veggie Burger', 'A delicious vegetarian burger patty with lettuce, tomato, and sauce', 8.50, 1),
+       ('Chicken Caesar Salad', 'Grilled chicken, romaine, croutons, Parmesan, and Caesar dressing', 7.50, 1),
+       ('Spaghetti Carbonara', 'Spaghetti with creamy sauce, bacon, and Parmesan cheese', 11.00, 1),
+       ('Beef Taco', 'Ground beef, cheese, lettuce, and tomato in a crunchy taco shell', 3.00, 1),
+       ('Chicken Burrito', 'Grilled chicken, rice, beans, cheese, and salsa wrapped in a tortilla', 7.25, 1),
+       ('Sushi Roll', 'Fresh salmon, avocado, and cucumber wrapped in seaweed and rice', 8.95, 1),
+       ('Pad Thai', 'Stir-fried rice noodles with shrimp, peanuts, egg, and bean sprouts', 9.50, 1),
+       ('Falafel Wrap', 'Falafel balls, lettuce, tomato, and tahini sauce wrapped in a flatbread', 6.99, 1),
+       ('Lamb Gyro', 'Slices of lamb, tzatziki sauce, lettuce, and tomato in a pita bread', 7.95, 1),
+       ('Mushroom Risotto', 'Creamy risotto with wild mushrooms and Parmesan cheese', 10.50, 1),
+       ('Fried Chicken', 'Crispy fried chicken served with a side of mashed potatoes', 9.25, 1),
+       ('Ribeye Steak', 'Grilled ribeye steak with a side of vegetables', 22.00, 1),
+       ('Pork Dumplings', 'Pork-filled dumplings served with soy sauce', 5.95, 1),
+       ('Vegetable Stir Fry', 'Mixed vegetables stir-fried with a soy-based sauce', 8.25, 1),
+       ('Fish and Chips', 'Fried fish served with a side of chips', 10.00, 1),
+       ('BBQ Ribs', 'Slow-cooked ribs covered in BBQ sauce', 15.50, 1),
+       ('Caesar Salad', 'Romaine, croutons, Parmesan, and Caesar dressing', 5.50, 1),
+       ('Cheeseburger', 'Burger with cheese, lettuce, tomato, and onion on a bun', 9.00, 1);

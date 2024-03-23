@@ -10,21 +10,24 @@ open class Restaurant (
     @Id
     @Column(name = "RESTAURANT_ID")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    open var id: Long? = null,
+    open val id: Long? = null,
 
-    @Column(name = "CODE")
+    @Column(name = "CODE", nullable = false, unique = true)
     open var code: String = "",
 
     @Column(name = "CATEGORY")
     @Convert(converter = CategoryConverter::class)
-    open var category: Category,
+    open var category: Category = Category.BARBECUE,
 
-    @Column(name = "NAME")
+    @Column(name = "NAME", nullable = false)
     open var name: String = "",
 
     @Column(name = "ADDRESS")
     open var address: String = "",
 
     @Column(name = "PHONE_NUMBER")
-    open var phone: String = "",
+    open var phone: String? = "",
+
+    @OneToMany(mappedBy = "restaurant", cascade = [CascadeType.ALL], fetch = FetchType.LAZY)
+    val foods: List<Food>? = null
 )
