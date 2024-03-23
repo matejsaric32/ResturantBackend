@@ -7,7 +7,7 @@ import org.springframework.data.repository.PagingAndSortingRepository
 
 interface FoodRepository : JpaRepository<Food, Long>, PagingAndSortingRepository<Food, Long> {
 
-    @Query("SELECT f FROM FOOD f WHERE f.code = :code")
+    @Query("SELECT f FROM Food f WHERE f.code = :code")
     fun findByCode(code: String): Food?
 
 }

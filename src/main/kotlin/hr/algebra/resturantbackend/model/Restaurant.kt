@@ -28,6 +28,6 @@ open class Restaurant (
     @Column(name = "PHONE_NUMBER")
     open var phone: String? = "",
 
-    @OneToMany(mappedBy = "restaurant", cascade = [CascadeType.ALL], fetch = FetchType.LAZY)
-    val foods: List<Food>? = null
+    @OneToMany(mappedBy = "restaurant", cascade = [CascadeType.ALL], fetch = FetchType.EAGER, targetEntity = Food::class)
+    open var foods: List<Food> = mutableListOf()
 )
